@@ -24,3 +24,4 @@ git push {連結名稱} {分支名稱} --force
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
+>> 未來可使用SSH連線，即可不用輸入帳號密碼
