@@ -30,7 +30,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 git commit -M <branch>
 ```
--追蹤遠端分支(下次使用可直接輸入git push)
+- 追蹤遠端分支(下次使用可直接輸入git push)
 ```
 git push -u origin <branch>
 ```
