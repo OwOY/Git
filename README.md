@@ -38,3 +38,8 @@ git branch -m <branch>
 ```
 git push -u origin <branch>
 ```
+- 若出現modified: <dir> (modified content, untracked content)  
+
+```
+git rm -rf --cached <dir>
+```
