@@ -12,6 +12,10 @@ git add .
 ```
 git commit -m "describe"   
 ```
+- 新增連結  
+```
+git remote add <name> <url>
+```
 - 推上git   
 ``` 
 git push <連結名稱> <分支名稱>
