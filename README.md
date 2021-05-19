@@ -43,3 +43,7 @@ git push -u origin <branch>
 ```
 git rm -rf --cached <dir>
 ```
+- clone 資料夾
+```
+git clone <repo URL> -b <branch name>
+```
