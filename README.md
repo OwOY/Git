@@ -43,7 +43,7 @@ git push -u origin <branch>
 ```
 git rm -rf --cached <dir>
 ```
-- clone 資料夾
+- clone 資料夾(指定branch)
 ```
 git clone <repo URL> -b <branch name>
 ```
@@ -51,4 +51,10 @@ git clone <repo URL> -b <branch name>
 ```
 git add -u
 git reset -- main/dontcheckmein.txt
+```
+- pull檔案(但不想改變現有工作)
+```
+git stash
+git pull
+git stash pop
 ```
