@@ -47,3 +47,8 @@ git rm -rf --cached <dir>
 ```
 git clone <repo URL> -b <branch name>
 ```
+- 排除某項程式
+```
+git add -u
+git reset -- main/dontcheckmein.txt
+```
