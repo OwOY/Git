@@ -8,6 +8,10 @@ git init
 ```
 git add .   
 ```  
+- 自動pull最新(git pull+git fetch)
+```
+git pull -r
+```
 - 創建節點    
 ```
 git commit -m "describe"   
