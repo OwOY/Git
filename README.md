@@ -8,7 +8,7 @@ git init
 ```
 git add .   
 ```  
-- 自動pull最新(git pull+git fetch)
+- 自動pull並更新至最新(git pull+git fetch)
 ```
 git pull -r
 ```
@@ -37,6 +37,10 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 - 更改連結branch
 ```
 git branch -m <branch>
+```
+- 切換branch分支
+```
+git switch <branch_b>
 ```
 - 追蹤遠端分支(下次使用可直接輸入git push)
 ```
