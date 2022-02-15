@@ -53,16 +53,19 @@ git rm -rf --cached <dir>
 ```
 - clone 資料夾(指定branch)
 ```
-git clone <repo URL> -b <branch name>
+git clone <repo URL> -b <branch name> <dir_name> # 若要 clone 進指定資料夾，則加入dir_name
 ```
 - 排除某項程式
 ```
-git add -u
 git reset -- main/dontcheckmein.txt
 ```
-- pull檔案(但不想改變現有工作)
+  
+### stash 暫存
+- 暫存修改
 ```
-git stash
-git pull
-git stash pop
+git stash 暫存修改
+git stash list 暫存列表
+git stash pop <id> 還原暫存
+git stash drop <id> 刪除暫存
+git stash clear 清除所有暫存
 ```
