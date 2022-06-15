@@ -59,6 +59,15 @@ git clone <repo URL> -b <branch name> <dir_name> # 若要 clone 進指定資料�
 ```
 git reset -- main/dontcheckmein.txt
 ```
+- 復原git修改(退回上一版並重新commit)
+```
+git revert {節點編號}
+```
+  
+- 退到某節點
+```
+git reset {節點編號}
+```
   
 ### stash 暫存
 - 暫存修改
